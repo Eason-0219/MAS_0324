@@ -1,0 +1,49 @@
+# Secrets and local configuration
+.git_local/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# Python environments and caches
+venv/
+venv*/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Frontend dependencies and build output
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# Local/generated data and binary artifacts
+data/faiss_index.pkl
+*.pkl
+*.mp3
+test_tts.mp3
+
+# Large local model assets
+models/SenseVoiceSmall/
+*.pt
+*.pth
+*.onnx
+*.safetensors
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Logs
+*.log
+logs/
